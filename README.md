@@ -18,4 +18,4 @@ Acest proiect implementează un sistem de autentificare simplu, care prelucreaz�
   - **Eroare de Logare**: În cazul în care utilizatorul încearcă să se logheze, programul compară numele de utilizator și parola cu datele deja stocate pentru a valida autentificarea.
 
 - **Curățarea Datelor**:  
-  La final, am utilizat funcția de cleanup pentru a înlocui conținutul fișierului cu un string gol, astfel eliminând datele stocate.
+  La final, am utilizat functia de cleanup pentru a înlocui conținutul fișierului cu un string gol, astfel eliminând datele stocate.
