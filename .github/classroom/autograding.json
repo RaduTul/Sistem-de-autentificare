@@ -1,0 +1,744 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testSubmitQuizUsernameDoesNotExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testDeleteQuizLoginCredentialsAreWrong",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetAllQuizezLoginCredentialsAreWrong",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuestionNoPassword",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuizNameAlreadyExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testQuestionAnswerHasNoAnswerFlag",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetAllQuizezNoUsername",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuizLoginCredentialsAreWrong",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testSubmitQuizNoId",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuestionLoginCredentialsAreWrong",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 11",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testQuestionAnswerHasNoDescription",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 12",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuestionNotFound",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 13",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testDeleteQuizUsernameDoesNotExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 14",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testDummy",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 15",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetSolutionsNoUsername",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 16",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testSubmitQuizLoginCredentialsAreWrong",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 17",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateUserNoUsername",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 18",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuizUsernameDoesNotExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 19",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testSubmitQuizNoUsername",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 20",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testSubmitQuizNotFound",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 21",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuizDetailsNoUsername",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 22",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuestionWithExistingName",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 23",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetSolutionsSuccessfully",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 24",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testSingleAnswerQuestionHasMultipleCorrectAnswers",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 25",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuizNoUsername",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 26",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetAllQuestionsLoginCredentialsAreWrong",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 27",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testQuestionHasNoAnswers",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 28",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuestionLoginCredentialsAreWrong",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 29",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetAllQuestionsUsernameDoesNotExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 30",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuizNoUsername",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 31",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetAllQuizezUsernameDoesNotExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 32",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testQuestionHasOnlyOneAnswer",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 33",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testDeleteQuizSuccessfully",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 34",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetAllQuestionsNoUsername",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 35",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testDeleteQuizNoUsername",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 36",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuestionNoUsername",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 37",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testDeleteQuizNotFound",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 38",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetAllQuizezNoPassword",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 39",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testDeleteQuizNoId",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 40",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuizNotFound",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 41",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuestionSuccessfully",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 42",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuizUsernameDoesNotExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 43",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateUserUserCreatedSuccesfully",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 44",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetSolutionsNoPassword",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 45",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuestionSuccessfully",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 46",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateUserNoPassword",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 47",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuizSuccessfully",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 48",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuizDetailsUsernameDoesNotExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 49",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testQuestionDuplicateAnswers",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 50",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuestionUsernameDoesNotExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 51",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testSubmitQuizNoPassword",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 52",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuizDetailsNoPassword",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 53",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuestionUsernameDoesNotExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test 54",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuizNoPassword",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 55",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testQuestionHasNoText",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 56",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuizNoPassword",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 57",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetSolutionsUserDoesNotExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 58",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuestionNoUsername",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 59",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetAllQuestionsNoPassword",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 60",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuizQuestionIdDoesNotExist",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 61",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testDeleteQuizNoPassword",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 62",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuestionNoPassword",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 63",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetAllQuizezSuccessfully",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 64",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetSolutionsWrongCredentials",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 65",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateUserUserAlreadyExists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 66",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetAllQuestionsSuccessfully",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 67",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuizLoginCredentialsAreWrong",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 68",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuizDetailsLoginCredentialsAreWrong",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 69",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testCreateQuizSuccessfully",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 70",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testGetQuizDetailsSuccessfully",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test 71",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testSubmitQuizAnsweredWrong",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test 72",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testSubmitQuizSuccessfully",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test 73",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testSubmitQuiz2Of3QuestionsAnswered",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Test 74",
+      "setup": "",
+      "run": "gradle test --tests com.example.project.TestTema1.testSubmitQuiz1QuestionAnsweredWrong2QuestionsAnsweredCorectly",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    }
+  ]
+}
